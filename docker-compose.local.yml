@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  deno-dev:
+    build: ./.devcontainer
+    container_name: deno_dev
+    working_dir: /app
+    volumes:
+      - ./:/app
+    tty: true
+    environment:
+      USER: savacan

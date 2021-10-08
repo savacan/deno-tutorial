@@ -1,0 +1,15 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"../docker-compose.local.yml",
+		"docker-compose.yml"
+	],
+	"service": "deno-dev",
+	"workspaceFolder": "/app",
+	"settings": {
+        "editor.formatOnSave": true,
+    },
+	"extensions": [
+		"denoland.vscode-deno"
+	]
+}
